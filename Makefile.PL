@@ -1,13 +1,7 @@
-# $Header: /home/fergal/my/cvs/Test-Deep/Makefile.PL,v 1.3 2003/06/18 12:30:14 fergal Exp $
+die <<EOM;
+Test::None::Warn has been renamed to
 
-use ExtUtils::MakeMaker;
+Test::NoWarnings
 
-WriteMakefile(
-	AUTHOR => 'Fergal Daly <fergal@esatclear.ie>',
-	NAME => 'Test::Warn::None',
-	VERSION_FROM => './lib/Test/Warn/None.pm',
-	INSTALLDIRS => 'perl',
-	PREREQ_PM => {
-		Test::Tester => '0.06',
-	}
-);
+please use that instead
+EOM
