@@ -8,6 +8,6 @@ WriteMakefile(
 	VERSION_FROM => './lib/Test/Warn/None.pm',
 	INSTALLDIRS => 'perl',
 	PREREQ_PM => {
-		Test::Tester => '0.04',
+		Test::Tester => '0.06',
 	}
 );
